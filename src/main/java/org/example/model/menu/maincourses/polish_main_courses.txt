@@ -1,0 +1,9 @@
+Choice polish main courses:
+№    name             price
+1,   Baranina,        0.0
+2,   Bigos,           0.1
+3,   Gołąbki,         1.0
+4,   Golonka,         0.0
+5,   Gulasz,          0.0
+6,   Kaszanka,        0.0
+7,   Klopsiki ,       0.0

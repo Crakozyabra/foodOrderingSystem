@@ -1,0 +1,9 @@
+Choice italian main courses:
+№    name             price
+1,   Agliata,         0.0
+2,   Agrodolce,       0.1
+3,   Bagna càuda,     1.0
+4,   Capra e fagioli, 0.0
+5,   Cioppino,        0.0
+6,   Garmugia,        0.0
+7,   Ginestrata,      0.0

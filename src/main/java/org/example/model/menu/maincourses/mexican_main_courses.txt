@@ -1,0 +1,9 @@
+Choice mexican main courses:
+№    name             price
+1,   Longaniza,       0.0
+2,   Escamoles,       0.1
+3,   Sopes,           1.0
+4,   Fritada,         0.0
+5,   Tostadas,        0.0
+6,   Moronga,         0.0
+7,   Gorditas,        0.0
