@@ -1,9 +1,9 @@
 Choice mexican desserts:
 №    name                      price
-1,   Alfajor,                  0.0
-2,   Bionico,                  0.1
-3,   Buñuelo,                  1.0
-4,   Cajeta de Celaya,         0.0
-5,   Cajeta de piña y plátano, 0.0
-6,   Capirotada,               0.0
-7,   Chongos zamoranos,        0.0
+1,   Alfajor,                  2.9
+2,   Bionico,                  3.8
+3,   Buñuelo,                  4.7
+4,   Cajeta de Celaya,         5.6
+5,   Cajeta de piña y plátano, 6.5
+6,   Capirotada,               7.4
+7,   Chongos zamoranos,        8.3

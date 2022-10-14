@@ -1,0 +1,4 @@
+Choice additional for drink:
+№    name       price
+1,   ice cube,  0.7
+2,   lemon,     0.6

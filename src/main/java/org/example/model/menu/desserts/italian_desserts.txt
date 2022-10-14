@@ -1,9 +1,9 @@
 Choice italian desserts:
 №    name             price
-1,   Affogato,        0.0
-2,   Angel wings,     0.1
-3,   Barbajada,       1.0
-4,   Baxin,           0.0
-5,   Biscotti,        0.0
-6,   Biscuit Tortoni, 0.0
-7,   Bombolone,       0.0
+1,   Affogato,        1.7
+2,   Angel wings,     2.6
+3,   Barbajada,       3.5
+4,   Baxin,           4.4
+5,   Biscotti,        5.3
+6,   Biscuit Tortoni, 6.2
+7,   Bombolone,       7.1

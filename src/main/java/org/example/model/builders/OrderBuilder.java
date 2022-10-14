@@ -7,12 +7,16 @@ import org.example.model.storage.MenuItemStorage;
 @Data
 public abstract class  OrderBuilder <E extends AbstractMenuItem>{
     private final MenuItemStorage<E> menuItemStorage;
-    private final Order order = new Order();
+    private final Order order;
 
-    public OrderBuilder(MenuItemStorage<E> menuItemStorage) {
+    public OrderBuilder(MenuItemStorage<E> menuItemStorage,Order order) {
         this.menuItemStorage = menuItemStorage;
+        this.order = order;
     }
 
+    public OrderBuilder<E> addAdditionalMenuItemToLastOrderItem(int menuItemId){
+        return this;
+    };
 
     public OrderBuilder<E> addMenuItems(Order order){
         this.order.getMenuItems().addAll(order.getMenuItems());

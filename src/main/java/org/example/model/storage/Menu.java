@@ -12,7 +12,8 @@ public enum Menu implements EnumChoices {
     POLISH_DESSERTS("desserts/polish_desserts.txt"),
     MEXICAN_DESSERTS("desserts/mexican_desserts.txt"),
     ITALIAN_DESSERTS("desserts/italian_main_courses.txt"),
-    DRINKS("drinks/drinks.txt");
+    DRINKS("drinks/drinks.txt"),
+    ADDITIONAL_FOR_DRINK("drinks/additional_for_drink.txt");
 
     private final Path pathToMenu;
 

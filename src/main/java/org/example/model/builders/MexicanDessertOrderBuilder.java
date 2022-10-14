@@ -7,6 +7,6 @@ import org.example.model.storage.MenuItemStorage;
 
 public class MexicanDessertOrderBuilder  extends OrderBuilder<Desert>{
     public MexicanDessertOrderBuilder() {
-        super(new MenuItemDesertStorage<Desert>(Menu.MEXICAN_DESSERTS.getPathToFile().toString()));
+        super(new MenuItemDesertStorage<Desert>(Menu.MEXICAN_DESSERTS.getPathToFile().toString()), new DessertsOrder());
     }
 }

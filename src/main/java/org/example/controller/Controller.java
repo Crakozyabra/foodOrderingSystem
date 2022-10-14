@@ -2,11 +2,12 @@ package org.example.controller;
 
 import lombok.Getter;
 import org.example.model.Model;
-import org.example.model.storage.Questions;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.function.Predicate;
 
 @Getter
 public abstract class Controller{
@@ -17,7 +18,7 @@ public abstract class Controller{
         this.model = model;
     }
 
-    public int readInt(){
+    public int readInt(int startIntIncluded, int finishIntIncluded){
         int reedInt;
         while (true) {
             try {
@@ -25,14 +26,31 @@ public abstract class Controller{
             } catch (IOException | NumberFormatException e) {
                 continue;
             }
-            return reedInt;
+            if (reedInt >= startIntIncluded && reedInt <= finishIntIncluded)
+                return reedInt;
+        }
+    }
+
+
+    public String readString(String... allowedStrings){
+        String reedString = "";
+        while (true) {
+
+            try {
+                reedString = bufferedInputStream.readLine();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+
+            if(Arrays.stream(allowedStrings).anyMatch(Predicate.isEqual(reedString)))
+                    return reedString;
         }
     }
 
     public abstract void choiceCuisine();
-    public abstract void seeMainCoursesMenu();
     public abstract void orderMainCourse();
-    public abstract void seeDesertsMenu();
+    public abstract void orderDesserts();
+    public abstract void orderDrinks();
 
 
 

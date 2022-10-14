@@ -44,11 +44,21 @@ public abstract class AbstractMenuItem implements MenuItem{
     }
 
     @Override
+    public void addAdditionalMenuItem(MenuItem menuItem) {
+        additionalMenuItems.add(menuItem);
+    }
+
+    @Override
+    public List<MenuItem> getAdditionalMenuItems() {
+        return additionalMenuItems;
+    }
+
+    @Override
     public String toString() {
         return name + "\t" + price + "\n" +
                 additionalMenuItems.
                         stream().
-                        map(e -> "\t" + e.toString()+ "\n").
+                        map(e -> "\t\t" + e.toString()).
                         collect(Collectors.joining(""));
     }
 }

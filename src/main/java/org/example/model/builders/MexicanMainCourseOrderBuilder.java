@@ -6,6 +6,6 @@ import org.example.model.storage.MenuItemMainCourseStorage;
 
 public class MexicanMainCourseOrderBuilder extends OrderBuilder<MainCourse>{
     public MexicanMainCourseOrderBuilder() {
-        super(new MenuItemMainCourseStorage<MainCourse>(Menu.MEXICAN_MAIN_COURSES.getPathToFile().toString()));
+        super(new MenuItemMainCourseStorage<MainCourse>(Menu.MEXICAN_MAIN_COURSES.getPathToFile().toString()), new MainCourseOrder());
     }
 }

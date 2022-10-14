@@ -26,6 +26,9 @@ public abstract class Model {
     public abstract void getDesertMenu();
     public abstract void getMainCourseMenu();
     public abstract void getDrinkMenu();
-
+    public abstract void getAdditionalMenu();
+    public abstract void getMainCourseOrder();
+    public abstract void getDessertsOrder();
+    public abstract void getDrinksOrder();
     public abstract void getContinueOrFinishQuestion();
 }

@@ -1,5 +1,6 @@
 package org.example.view;
 
+
 import org.example.model.builders.Order;
 import org.example.model.storage.Menu;
 import org.example.model.storage.Questions;
@@ -28,8 +29,10 @@ public class FoodOrderingSystemView extends View{
         }
     }
 
+
+
     @Override
     public void printOrder(Order order) {
-        System.out.println(order.getMenuItems());
+        System.out.println(order);
     }
 }

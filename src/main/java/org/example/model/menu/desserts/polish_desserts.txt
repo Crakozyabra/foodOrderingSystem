@@ -1,9 +1,9 @@
 Choice polish desserts:
 №    name                      price
-1,   Babka,                    0.0
-2,   Chałka,                   0.1
-3,   Chocolate-covered prune,  1.0
-4,   Ciepłe lody,              0.0
-5,   Drożdzówka,               0.0
-6,   Faworki,                  0.0
-7,   Keks,                     0.0
+1,   Babka,                    4.8
+2,   Chałka,                   5.7
+3,   Chocolate-covered prune,  6.6
+4,   Ciepłe lody,              7.5
+5,   Drożdzówka,               8.4
+6,   Faworki,                  9.3
+7,   Keks,                     0.2

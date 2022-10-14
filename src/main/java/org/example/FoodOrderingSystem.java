@@ -26,8 +26,8 @@ public class FoodOrderingSystem extends OrderingSystem{
     @Override
     public void startOrdering(){
         getController().choiceCuisine();
-        getController().seeMainCoursesMenu();
         getController().orderMainCourse();
-
+        getController().orderDesserts();
+        getController().orderDrinks();
     }
 }

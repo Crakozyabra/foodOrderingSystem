@@ -42,6 +42,26 @@ public class FoodOrderingSystemModel extends Model{
     }
 
     @Override
+    public void getAdditionalMenu() {
+        getView().printMenu(Menu.ADDITIONAL_FOR_DRINK);
+    }
+
+    @Override
+    public void getMainCourseOrder() {
+        getView().printOrder(this.getMainCourseOrderBuilder().build());
+    }
+
+    @Override
+    public void getDessertsOrder() {
+        getView().printOrder(this.getDesertOrderBuilder().build());
+    }
+
+    @Override
+    public void getDrinksOrder(){
+        getView().printOrder(this.getDrinkOrderBuilder().build());
+    }
+
+    @Override
     public void getContinueOrFinishQuestion() {
         getView().printQuestion(Questions.CONTINUE_OR_FINISH);
     }
